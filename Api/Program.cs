@@ -15,5 +15,5 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.MapControllers();
-app.MapGet("/", () => "API läuft 🚀");
+app.MapGet("/", () => "API läuft");
 app.Run();
